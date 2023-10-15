@@ -36,14 +36,25 @@
 
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on.</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
-          <li>I have a problem with the CLI</li>
-          it does this whenever I try to push
-          <pre>remote: Support for password authentication was removed on August 13, 2021.
-            See <a href="https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls">this page</a> for information on currently recommended modes of authentication.</pre>
-        </ul>
+       <ul>
+       <li>git status: check current branch </li>
+       <li>git checkout -b branch-name: create and switch to new branch</li>
+       <li>git checkout main: switch to main branch</li>
+       <li>git pull origin main: make sure local branch is up to date</li>
+       <li>git add -A: stage your changes</li> 
+       <li>git commit -m "<your message here>": describe commit changes</li> 
+       <li>git push origin feature/add-nameoffeature  
+        <br />it says support for password authentication was removed on August 13, 2021 </li>
+      <li> GitFlow below:</li>
+       <ol>
+        <li>go to feature</li>
+        <li>create pull request/open PR</li>
+        <li>give PR a title and describe changes</li>
+        <li>click merge pull request to merge to main branc</li>
+        <li>close the GitHub issue</li>
+        <li>Deploy to GitHub Pages</li>
+       </ol>
+      </ul>
       </section>
 
       <section class="card" id="javascript-section">
@@ -58,5 +69,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
