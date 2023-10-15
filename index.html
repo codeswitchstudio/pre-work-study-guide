@@ -40,13 +40,46 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on.</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
-          <li>I have a problem with the CLI</li>
+          <li>Checks what branch we are currently on:
+            <pre>git status</pre>
+          </li>
+          <li>Create a new branch and switch to it:
+          <pre>git checkout -b branch-name</pre>
+        </li>
+          <li>To switch to main branch:
+            <pre>git checkout main</pre>
+          </li>
+          <li>To pull in latest changes:
+            <pre>git pull origin main</pre>
+          </li>
+          
+          
+          <li>GITFLOW</li>
+          <ol>
+          <li>stage your changes</li>
+            <pre>git add -A</pre>
+          <li>Add a commit message that describes the changes you made</li> 
+            <pre>git commit -m "<your message here>"</pre>
+          <li>make sure local branch is up to date by pulling in base branch to feature branch</li>    
+            <pre>git pull origin main</pre>  
+          <li>push changes to remote repo</li>  
+          <pre>git push origin feature/add-js</pre>
+          --I have a problem with the CLI--
           it does this whenever I try to push
-          <pre>remote: Support for password authentication was removed on August 13, 2021.
-          See <a href="https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls">this page</a> for information on currently 
+          <pre>remote: Support for password authentication 
+            was removed on August 13, 2021.
+          See <a href="https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls">this page</a> 
+          for information on currently 
           recommended modes of authentication.</pre>
+
+          <li>Go to github:</li>
+          <li>Go to feature, create a pull request to open a PR,</li> 
+          <li>Give PR a title and describe changes</li> 
+          <li>Click merge pull req to merge to main branch </li>
+          <li>Close the GitHub issue</li>
+          <li>Deploy to GitHub Pages!</li>
+        </ol>
+
         </ul>
       </section>
 
